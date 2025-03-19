@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Incognify",
+	"version": "1.0.0",
+
+	"description": "Open current tab in its alternate state (normal or incognito)",
+
+	"permissions": ["tabs"],
+	"background": {
+		"service_worker": "service-worker.js",
+		"type": "module"
+	}
+}
